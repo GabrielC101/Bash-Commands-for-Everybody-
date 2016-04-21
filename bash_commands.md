@@ -13,8 +13,9 @@ Gives you information about the contents of a file
 file <file path> 
 ```
 
+Give you metadata on the file path
 ```bash
-stat <file path> #give you metadata on the file path
+stat <file path> 
 ```
 
 Search previous commands for a given term. this is really, really, helpful. 
