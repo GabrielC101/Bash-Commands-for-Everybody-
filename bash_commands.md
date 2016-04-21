@@ -1,7 +1,26 @@
+##Moving around with bash.
+
 Return to home directory:
 ```bash
 cd
 ```
+
+Move to new directory using absolute path:
+```bash
+cd /home/my_name/Videos/
+```
+
+Move to new directory using relative path:
+```bash
+cd new_parent_directory/directory_to_enter/
+```
+
+Return to previous directory
+```bash
+cd -
+```
+
+##Misc Commands
 
 Clears all text from screen. actually it just wraps the text up. you can still see previous output by scrolling up:
 ```bash
@@ -61,4 +80,9 @@ sudo blkid
 List all devices attached by usb
 ```bash
 sudo usb-devices 
+```
+
+Calculate size of directory:
+```bash
+du -hs
 ```
