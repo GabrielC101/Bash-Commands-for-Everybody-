@@ -20,6 +20,29 @@ Return to previous directory
 cd -
 ```
 
+##ls command
+
+List all visible (non-hidden) files.
+```bash
+ls
+```
+
+List all files, including hidden, but excluding virtual files (i.e. "." and "..").
+```bash
+ls -A
+```
+
+Show all files with metadata.
+```bash
+ls -lh
+```
+To sort by most recent modified
+```bash
+ls -lht
+```
+
+
+
 ##Misc Commands
 
 Clears all text from screen. actually it just wraps the text up. you can still see previous output by scrolling up:
