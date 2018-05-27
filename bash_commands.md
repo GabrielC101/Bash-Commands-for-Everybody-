@@ -107,5 +107,9 @@ sudo usb-devices
 
 Calculate size of directory:
 ```bash
-du -hs
+du -hs <directoryName>
 ```
+
+Search History for command
+```bash
+history | grep <command>
