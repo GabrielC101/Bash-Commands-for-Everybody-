@@ -113,3 +113,11 @@ du -hs <directoryName>
 Search History for command
 ```bash
 history | grep <command>
+```
+
+Curl Commands
+
+Make Get Request
+```bash
+curl -X GET https://www.example.com
+```
